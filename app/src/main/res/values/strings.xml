@@ -1,0 +1,16 @@
+<resources>
+    <string name="navigation_first" translatable="false">首页</string>
+    <string name="navigation_square" translatable="false">广场</string>
+    <string name="navigation_chat" translatable="false">约</string>
+    <string name="navigation_information" translatable="false">资料</string>
+    <string name="navigation_my" translatable="false">我的</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="content">最近心情不太好，很多事情，很忙很忙，很累很累</string>
+    <string name="action_settings">Settings</string>
+    <string name="voice_up_tips">手指上滑，取消发送</string>
+    <string name="picture">照片</string>
+    <string name="camera">拍摄</string>
+    <string name="location">位置</string>
+    <string name="voice_cancel_tips">松开手指，取消发送</string>
+    <string name="voice_short_tips">录音时间太短</string>
+</resources>

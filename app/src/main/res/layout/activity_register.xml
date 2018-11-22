@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context="com.example.libarary.user.RegisterActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入注册的用户名(英)"
+        android:digits="0123456789abcdefghijgklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM"
+        android:id="@+id/zc_name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码(≥6)"
+        android:layout_below="@id/zc_name"
+        android:digits="0123456789abcdefghigklmnopqrstuvwxyzQWERTYUIOPASDFGHJKLZXCVBNM"
+        android:id="@+id/zc_key"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入QQ邮箱"
+        android:layout_below="@id/zc_key"
+
+        android:id="@+id/ed_rekey"/>
+
+    <Button
+        android:id="@+id/zc_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:paddingTop="15dp"
+
+        android:paddingBottom="15dp"
+        android:text="确定注册"
+        android:textColor="#179181"
+        android:textSize="15sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_alignBaseline="@+id/zc_fanhui"
+        android:layout_alignBottom="@+id/zc_fanhui"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/zc_fanhui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回登录"
+
+        android:textColor="#179181"
+        android:background="#00ffffff"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_below="@+id/ed_rekey"
+        android:layout_toRightOf="@+id/zc_register"
+        android:layout_toEndOf="@+id/zc_register" />
+</RelativeLayout>

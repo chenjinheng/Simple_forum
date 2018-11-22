@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ask_friend"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.libarary.view.AskFriendActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="用户名"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+
+        android:text="添加好友"
+        android:id="@+id/add"
+        />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="#516be1"-->
+        <!--android:orientation="horizontal"-->
+        <!--&gt;-->
+
+        <!--<com.facebook.drawee.view.SimpleDraweeView-->
+            <!--android:id="@+id/sdv_logo1"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--fresco:roundAsCircle="true" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="25dp"-->
+            <!--android:textColor="#000000"-->
+            <!--android:text="个人信息"-->
+            <!--android:id="@+id/textView3"-->
+            <!--android:layout_marginLeft="140dp"-->
+            <!--android:layout_marginTop="30dp"/>-->
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/add"-->
+            <!--android:layout_marginLeft="340dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:src="@drawable/add"-->
+            <!--/>-->
+    <!--</LinearLayout>-->
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/swipe_friend"-->
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/recycler_friend">-->
+            <!--</android.support.v7.widget.RecyclerView>-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#1e59ec">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_logo1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            fresco:roundAsCircle="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="好友界面"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改头像"
+        android:id="@+id/change_head"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="好友列表"
+        android:id="@+id/friend"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="退出登录"
+    android:id="@+id/end"
+    />
+</LinearLayout>
+

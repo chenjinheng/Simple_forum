@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRefresh">#20000000</color>\
+    <color name="colorYellow">#f5d451</color>
+    <color name="colorLightYellow">#e8e3a7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#fffffb</color>
+    <color name="colorBlue">#5689c8</color>
+    <color name="colorGary">#919090</color>
+    <color name="color_line">#dadada</color>
+    <color name="base_color_text_white">#ffffff</color>
+    <color name="global_bg">#eeeff3</color>
+    <color name="color_emote_divder">#ffa1a1a1</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="color_msg_system_time_bg">#20000000</color>
+</resources>

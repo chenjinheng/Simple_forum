@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.libarary.view.AddActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_findFriend"
+        android:background="#01a4e9"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_view"
+        android:queryHint="搜索好友"
+        >
+    </android.support.v7.widget.SearchView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_finduser"
+        android:layout_below="@+id/toolbar_findFriend"
+        android:layout_marginTop="5dp"
+        >
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

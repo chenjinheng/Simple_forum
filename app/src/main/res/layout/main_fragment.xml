@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:button="@null"
+            android:id="@+id/gonggao"
+            android:gravity="center_horizontal"
+            android:text="公告"
+            android:checked="true"
+            android:drawableTop="@drawable/gonggao1"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:button="@null"
+            android:id="@+id/fuwu"
+            android:gravity="center_horizontal"
+            android:text="服務"
+
+            android:drawableTop="@drawable/service"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:button="@null"
+            android:id="@+id/ziyuan"
+            android:gravity="center_horizontal"
+            android:text="資源"
+
+            android:drawableTop="@drawable/search"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:button="@null"
+            android:id="@+id/jiaoliu"
+            android:gravity="center_horizontal"
+            android:text="交流"
+
+            android:drawableTop="@drawable/atm"
+            />
+    </RadioGroup>
+</LinearLayout>
